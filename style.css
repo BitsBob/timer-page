@@ -55,3 +55,28 @@ button {
      margin: 0;
      outline: none;
 }
+
+.controls {
+     display: flex;
+     justify-content: space-between;
+ 
+     width: 187px;
+}
+
+#playButton {
+     display: block;
+}
+   
+#pauseButton {
+     display: none;
+}
+
+button {
+     cursor: pointer;
+     background: transparent;
+     padding: 0;
+     border: none;
+     margin: 0;
+     outline: none;
+}
+   

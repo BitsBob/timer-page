@@ -5,29 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timer</title>
     <link rel="stylesheet" href="style.css" />
-  
+    <link rel="icon" href="./icons/icon.png">
 </head>
 <body>
      <div class="stopwatch">
           <h1><span class="gold">GOLD</span> Timer</h1>
 
           <div class="circle">
-               <span class="time">00:00:00</span>
+               <span class="time" id="display">00:00:00</span>
           </div>
 
-          <div>
+          <div class="controls">
                <button>
-                    <img src="icons/play-button.svg" />
+                    <img id="playButton" src="icons/play-button.svg" />
 
-                    <img src="icons/pause-button.svg" />
+                    <img id="pauseButton" src="icons/pause-button.svg" />
                </button>
 
                <button>
-                    <img src="icons/reset-button.svg" />
-               </button>
-     
-               <button>
-                    <img src="icons/reset-button.svg" />
+                    <img id="resetButton" src="icons/reset-button.svg" />
                </button>
           </div>
     
